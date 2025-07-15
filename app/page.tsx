@@ -1,3 +1,10 @@
+// app/page.tsx
+
+export const metadata = {
+  title: 'Teeksha Gupta - Portfolio',
+  description: 'Explore Teeksha Gupta’s creative projects, services, and more as a full-stack developer and designer.',
+};
+
 'use client';
 import React, { useState, useEffect } from 'react';
 import Navbar from '@/components/navbar';
@@ -96,7 +103,7 @@ export default function HomePage() {
         <HeroSection />
         {/* <ServicesSection /> */}
         <AboutSection />
-         <ProjectSlider />
+        <ProjectSlider />
         <Projects />
         <Testimonial />
         {/* <ContactSection /> */}
