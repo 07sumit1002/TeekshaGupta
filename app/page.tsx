@@ -1,11 +1,11 @@
 // app/page.tsx
+'use client';
 
 export const metadata = {
   title: 'Teeksha Gupta - Portfolio',
   description: 'Explore Teeksha Gupta’s creative projects, services, and more as a full-stack developer and designer.',
 };
 
-// 'use client';
 import React, { useState, useEffect } from 'react';
 import Navbar from '@/components/navbar';
 import HeroSection from '@/components/hero';
