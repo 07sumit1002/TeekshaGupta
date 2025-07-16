@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: teekshagupta.com/sitemap.xml
