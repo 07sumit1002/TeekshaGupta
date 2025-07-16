@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-module.exports = {
-  siteUrl: 'teekshagupta.com',
-  generateRobotsTxt: true,
+const nextConfig = {
+  reactStrictMode: true,
 };
-export default nextConfig;
+
+module.exports = nextConfig;
